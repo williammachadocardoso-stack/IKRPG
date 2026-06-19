@@ -11,9 +11,8 @@ body {
 
 .sheet {
     position: relative;
-  width: 630px;   /* 900 * 0.7 */
-  height: 840px;  /* 1200 * 0.7 */
-
+  width: 1200px;
+  height: 900px;
   background-image: url("ficha.png");
   background-size: cover;
 }
