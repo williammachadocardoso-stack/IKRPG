@@ -16,6 +16,8 @@ body {
   background-size: cover;
   position: relative;
   border: 2px solid red;
+  transform: scale(0.7);
+  transform-origin: top left;
 }
 
 .field {
