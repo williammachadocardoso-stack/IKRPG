@@ -1,4 +1,4 @@
-const API = "SUA_URL_DO_APPS_SCRIPT";
+const API = "https://williammachadocardoso-stack.github.io/IKRPG/";
 
 function carregar() {
   const id = document.getElementById("id").value;
