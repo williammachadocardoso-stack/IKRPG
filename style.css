@@ -10,28 +10,24 @@ body {
 }
 
 .sheet {
-    position: relative;
-  width: 1800px;
-  height: 900px;
+  width: 800px;
+  height: 1100px;
   background-image: url("ficha.png");
   background-size: cover;
+  position: relative;
+  border: 2px solid red;
 }
 
-/* CAMPOS */
 .field {
   position: absolute;
-  background: transparent;
-  border: none;
-  outline: none;
-
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
+  background: white;
+  border: 1px solid black;
+  font-size: 14px;
+  z-index: 10;
 }
 
-/* POSICIONAMENTO (AJUSTÁVEL) */
-.nome   { top: 120px; left: 200px; width: 250px; }
-.classe { top: 170px; left: 200px; width: 200px; }
-.hp     { top: 300px; left: 200px; width: 80px; }
-.mana   { top: 340px; left: 200px; width: 80px; }
-.forca  { top: 380px; left: 200px; width: 80px; }
+.nome { top: 100px; left: 100px; }
+.classe { top: 150px; left: 100px; }
+.hp { top: 200px; left: 100px; }
+.mana { top: 250px; left: 100px; }
+.forca { top: 300px; left: 100px; }
