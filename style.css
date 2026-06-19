@@ -10,14 +10,12 @@ body {
 }
 
 .sheet {
-  position: relative;
-  width: 900px;
-  height: 1200px;
+    position: relative;
+  width: 630px;   /* 900 * 0.7 */
+  height: 840px;  /* 1200 * 0.7 */
 
   background-image: url("ficha.png");
   background-size: cover;
-  background-position: center;
-  margin-top: 10px;
 }
 
 /* CAMPOS */
